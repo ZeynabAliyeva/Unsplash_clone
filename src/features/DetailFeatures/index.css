@@ -1,0 +1,164 @@
+.detailContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	border-top: 1px solid #ccc;
+	height: 86vh;
+}
+
+.detailHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+}
+
+.imgOvner {
+	display: flex;
+	align-items: center;
+}
+
+.imgOvner img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.favIconBox img {
+	width: 20px;
+	height: 20px;
+}
+
+.detailImgCard {
+	margin-top: 20px;
+}
+
+.detailImgCard img {
+	max-width: 500px;
+	max-height: 500px;
+	width: 100%;
+}
+
+.detailInfoBox {
+	width: 90%;
+	margin-top: 20px;
+}
+
+.imgAbout {
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	color: #888;
+	margin-bottom: 20px;
+}
+
+.commantTitleBox {
+	display: flex;
+	align-items: center;
+	margin-top: 35px;
+}
+
+.commantTitleBox h3 {
+	font-size: 18px;
+	margin: 0;
+}
+
+.arrowIcon {
+	width: 20px;
+	height: 20px;
+}
+
+.commentsBox {
+	display: flex;
+	margin-top: 20px;
+}
+
+.commentRight img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.commentLeft {
+	display: flex;
+	flex-direction: column;
+}
+
+.commentLeft p {
+	margin: 0;
+}
+
+.commentLeft p span {
+	color: #888;
+	font-size: 14px;
+	margin-left: 10px;
+	font-family: 'Montserrat';
+}
+
+.commentLeft div {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.commentLeft div p {
+	font-size: 14px;
+	color: #888;
+	margin-right: 10px;
+}
+
+.commentLeft div p.fav {
+	display: flex;
+	align-items: center;
+}
+
+.commentLeft div p.fav img {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+.commentForm {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding-top: 35px;
+}
+.commentForm img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+.commentForm input {
+	border: 1px solid;
+	border-radius: 10px;
+	max-width: 800px;
+	margin-left: 0;
+	padding: 10px;
+}
+
+.likeBtn {
+	background-color: #fff;
+	border: none;
+	font-size: 20px;
+}
+
+.likeBtn img {
+	margin-left: 8px;
+}
+
+.commentBtn {
+	padding: 13px 15px;
+	margin-left: 10px;
+	background: #3db46d;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+	border: none;
+	border-radius: 12px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	color: #ffffff;
+}

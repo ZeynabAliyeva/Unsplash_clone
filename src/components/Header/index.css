@@ -1,0 +1,231 @@
+.headerWrapper {
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	padding: 0 65px;
+	z-index: 10;
+	width: 100%;
+	background-color: #fff;
+}
+.headerLeft {
+	max-width: 600px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.headerRight {
+	max-width: 500px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.headerForm {
+	padding: 0 15px 0 0px;
+	margin-left: 60px;
+	background-color: white;
+	border-radius: 12px;
+	border: 1px solid #bdbdbd;
+	display: flex;
+	align-items: center;
+}
+.srcInput {
+	border: none;
+	outline: none;
+	margin: 15px;
+	max-width: 400px;
+	width: 100%;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 19px;
+}
+.srcIcon {
+	margin-left: 10px;
+}
+.unsplash_info_box {
+	display: flex;
+}
+.unsplash_title_box {
+	padding: 10px;
+}
+.unsplash_title_box span {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 12px;
+	color: #333333;
+}
+.unsplash_title_box a:hover {
+	color: gray;
+}
+.unsplash_title_box h3:hover {
+	color: gray;
+}
+.unsplash_title_box h3 {
+	color: #333333;
+	font-weight: 800;
+	font-size: 15px;
+}
+.unsplash_icon {
+	width: 50px;
+	height: 50px;
+}
+.user_info a {
+	padding: 15px;
+	color: #333333;
+	font-size: 15px;
+	margin-left: 35px;
+}
+.user_info a:hover {
+	color: gray;
+}
+.srcIcon {
+	width: 17px;
+	height: 17px;
+}
+form {
+	display: flex;
+	justify-content: space-between;
+}
+.hamburgerMenu {
+	position: relative;
+	margin-left: 35px;
+}
+.navBar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
+	position: absolute;
+	z-index: 1;
+	left: -90px;
+	top: 75px;
+	box-shadow: rgba(59, 56, 56, 0.16) 0px 1px 4px;
+	border-radius: 5px;
+}
+.navLi {
+	padding: 10px;
+	margin: 15px 25px;
+}
+.navLi a {
+	color: rgb(84, 81, 81);
+	font-weight: 700;
+	font-style: normal;
+}
+.navLi a:hover {
+	color: #9f9999;
+}
+.navLi button {
+	color: rgb(84, 81, 81);
+	border: none;
+	background-color: #fff;
+	font-weight: 700;
+	font-style: normal;
+}
+.navLi button:hover {
+	color: red;
+}
+.logOutBox {
+	display: flex;
+}
+.logoutIcon {
+	width: 20px;
+	height: 20px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+.addPhotoBtn {
+	padding: 15px 20px;
+	margin-left: 50px;
+	background: #3db46d;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+	border: none;
+	border-radius: 12px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 19px;
+	color: #ffffff;
+}
+
+.modalFormBox {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 60px;
+}
+.modalFormBox input {
+	width: 550px;
+	height: 55px;
+	padding-left: 15px;
+	border: 1px solid #4f4f4f;
+	filter: drop-shadow(0px 1px 6px rgba(0, 0, 0, 0.1));
+	border-radius: 12px;
+}
+.modalFormBox label {
+	font-style: normal;
+	font-weight: 250;
+	font-size: 14px;
+	line-height: 19px;
+	color: #4f4f4f;
+	margin: 15px 0;
+}
+
+.addModalBtn {
+	position: absolute;
+	right: 33px;
+	bottom: 15px;
+}
+
+.addModalBtnSubmit {
+	padding: 15px 26px;
+	background-color: #3db46d;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+	border: none;
+	border-radius: 12px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 19px;
+	color: #ffffff;
+}
+
+.addModalBtnSubmit:hover {
+	background-color: #38e385;
+}
+
+.addModalBtnCancel {
+	padding: 15px 26px;
+	background-color: #f24642;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+	border: none;
+	border-radius: 12px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 19px;
+	color: #fff;
+	margin-right: 25px;
+}
+
+.addModalBtnCancel:hover {
+	background-color: #ef1919;
+	color: #fff;
+}
+
+.modalTitleBox h3 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 33px;
+	color: #333333;
+}
+
+.user_infoTitle {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	margin-left: 20px;
+}

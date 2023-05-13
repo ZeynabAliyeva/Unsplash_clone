@@ -1,0 +1,81 @@
+.imgBox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	z-index: 0;
+}
+
+.imgs {
+	width: 100%;
+	height: auto;
+	transition: transform 0.2s ease-out;
+}
+
+.image-list-item {
+	position: relative;
+	overflow: hidden;
+	border-radius: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-list-item:hover .image-title {
+	transform: translateY(0);
+}
+.image-title {
+	position: absolute;
+	bottom: 16px;
+	left: 16px;
+	width: 100%;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	color: #ffffff;
+	transform: translateY(100%);
+	transition: transform 0.2s ease-out;
+}
+
+.hoverDeleteBtn {
+	position: absolute;
+	top: 18px;
+	right: 18px;
+	border: 1px solid #eb5757;
+	border-radius: 40px;
+	background-color: rgba(28, 28, 28, 0);
+	padding: 7px 15px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 12px;
+	text-transform: lowercase;
+	color: #eb5757;
+}
+
+.hoverWrapper {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.image-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+.image-list-item:hover .image-overlay {
+	opacity: 0.9;
+}
+
+.formBoxHome {
+	position: relative;
+	top: -94px;
+	right: 200px;
+	z-index: 10;
+}

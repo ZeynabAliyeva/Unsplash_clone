@@ -1,0 +1,85 @@
+.profilContainer {
+	margin: 20px;
+	padding: 20px;
+}
+
+.profileHeader {
+	display: block;
+	align-items: center;
+}
+
+.profilInfo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.profilLeftBox {
+	margin-right: 30px;
+}
+.profilLeftBox img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.profilRightBox h1 {
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+
+.profilRightBox p {
+	font-size: 16px;
+	color: #535151;
+	padding-bottom: 60px;
+}
+
+.profilPhotosBox {
+	display: flex;
+	align-items: center;
+}
+
+.profilPhotosBox img {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+
+.profilPhotosBox p {
+	font-size: 16px;
+	color: #888;
+	margin: 0;
+	margin-left: 5px;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	background-color: #ddd;
+	margin: 20px 0;
+}
+.editPhotoBtn {
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 5px;
+	font-size: 15px;
+	position: relative;
+	top: -6px;
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 5px;
+	font-family: 'Montserrat';
+	font-weight: 500;
+}
+
+.userAvoName {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.userAvoName form {
+	margin-top: 20px;
+}
